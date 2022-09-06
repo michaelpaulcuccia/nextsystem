@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head'
 import Container from '../components/layout/Container';
 import Box from '../components/common/Box';
+import IconWithText from '../components/common/IconWithText';
 
 export default function index() {
   return (
@@ -12,8 +13,15 @@ export default function index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
-        <Box borderColor='green'>
-          Hello World
+        <Box>
+          <h1>TITLE</h1>
+          <p>content</p>
+        </Box>
+        <Box>
+          <IconWithText 
+            icon='/assets/icons/plusOpen.svg'
+            text='Hello IconWithText'
+          />
         </Box>
       </Container>
     </>
