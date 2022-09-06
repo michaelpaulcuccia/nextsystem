@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head'
 import Container from '../components/layout/Container';
+import Box from '../components/common/Box';
 
 export default function index() {
   return (
@@ -11,7 +12,9 @@ export default function index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
-        Hello World
+        <Box borderColor='green'>
+          Hello World
+        </Box>
       </Container>
     </>
   )
