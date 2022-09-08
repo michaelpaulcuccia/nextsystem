@@ -17,11 +17,23 @@ export default function index() {
           <h1>TITLE</h1>
           <p>content</p>
         </Box>
+        <div className='full-bleed'>
+          TESTING FULL BLEED
+        </div>
         <Box>
           <IconWithText 
             icon='/assets/icons/plusOpen.svg'
             text='Hello IconWithText'
           />
+        </Box>
+        <Box>
+          <img className='pic' src='/assets/images/img_one.jpeg' alt='' />
+        </Box>
+        <Box>
+          <img className='pic' src='/assets/images/img_two.jpeg' alt='' />
+        </Box>
+        <Box>
+          <img className='pic' src='/assets/images/img_three.jpeg' alt='' />
         </Box>
       </Container>
     </>
