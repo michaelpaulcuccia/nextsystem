@@ -15,8 +15,8 @@ a {
 }
 
 .full-bleed {
-  box-shadow: 0 0 0 100vmax #121212;
+  box-shadow: 0 0 0 100vmax whitesmoke;
   clip-path: inset(0 -100vmax);
-  background: #121212;
-  color: white;
+  background: whitesmoke;
+  color: black;
 }

@@ -17,9 +17,6 @@ export default function index() {
           <h1>TITLE</h1>
           <p>content</p>
         </Box>
-        <div className='full-bleed'>
-          TESTING FULL BLEED
-        </div>
         <Box>
           <IconWithText 
             icon='/assets/icons/plusOpen.svg'
